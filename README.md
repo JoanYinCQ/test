@@ -17,7 +17,7 @@ net.to(device) # transport the net to GPU
 
 ② we add the following lines in line 104-106.
  
-# transport data to GPU
+% transport data to GPU
 inputs=inputs.to(device)
 labels=labels.to(device)
 
